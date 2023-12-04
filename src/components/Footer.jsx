@@ -44,14 +44,13 @@ export default function Footer() {
               <h4>Contact us</h4>
               <div className="contact_info">
                 <p>
-                  <span> Address :</span>Hath of it fly signs bear be one
-                  blessed after{" "}
+                  <span> Address :</span>This is a Test Address
                 </p>
                 <p>
-                  <span> Phone :</span> +2 36 265 (8060)
+                  <span> Phone :</span> +94 77980 8015
                 </p>
                 <p>
-                  <span> Email : </span>info@colorlib.com{" "}
+                  <span> Email : </span>admin@udarax.me
                 </p>
               </div>
             </div>
@@ -86,10 +85,9 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-8">
               <p className="footer-text m-0">
-                Copyright &copy;2024 All rights reserved | This template is made
-                with <i className="ti-heart" aria-hidden="true"></i> by{" "}
-                <a href="https://colorlib.com" target="_blank">
-                  Colorlib
+                Copyright &copy;2024 All rights reserved | <i className="ti-heart" aria-hidden="true"></i> by 
+                <a href="https://udarax.me" target="_blank">
+                &nbsp; UDARAX.ME
                 </a>
               </p>
             </div>

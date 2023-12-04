@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect  } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
@@ -12,13 +12,21 @@ import Chefs from "./components/Chefs";
 import Contact from "./components/Contact";
 
 function App() {
-  const [count, setCount] = useState(0);
 
+  useEffect(()=>{
+    console.log(`
+        ╔══════════════════╗
+        ║   Welcome to     ║
+        ║   UDARX.ME       ║
+        ╚══════════════════╝
+        >> Dive into the code adventure! <<
+    `)
+  },[])
+  
   return (
     <>
       <BrowserRouter>
       <Header />
-
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route path="/about" element={<About />} />

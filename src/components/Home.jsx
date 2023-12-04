@@ -5,19 +5,17 @@ export default function Home() {
   return (
     <>
 
-      
+
       <section className="banner_part">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="banner_text">
                 <div className="banner_text_iner">
-                  <h5>Expensive but the best</h5>
-                  <h1>Deliciousness jumping into the mouth</h1>
+                  <h5>Luxury Redefined, Simply the Finest</h5>
+                  <h1>Irresistible Delights that Leap into Your Palate!</h1>
                   <p>
-                    Together creeping heaven upon third dominion be upon won't
-                    darkness rule land behold it created good saw after she'd
-                    Our set living. Signs midst dominion creepeth morning
+                    In the realm of our land, witness the creation of a good and living haven. Morning unfolds with signs of a captivating dominion.
                   </p>
                   <div className="banner_btn">
                     <div className="banner_btn_iner">
@@ -26,12 +24,12 @@ export default function Home() {
                       </a>
                     </div>
                     <a
-                      href="https://www.youtube.com/watch?v=pBFQdxA-apI"
+                      href="https://udarax.me/"
                       className="popup-youtube video_popup"
                     >
                       <span>
                         <img src="img/icon/play.svg" alt="" />
-                      </span>{" "}
+                      </span>
                       Watch our story
                     </a>
                   </div>
@@ -838,7 +836,7 @@ export default function Home() {
                         placeholder="Email address *"
                       />
                     </div>
-                   
+
                     <div className="form-group col-md-6">
                       <input
                         type="text"
@@ -858,7 +856,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="form-group col-md-6">
-                    
+
                     </div>
                     <div className="form-group col-md-12">
                       <textarea
@@ -1000,7 +998,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-       
+
     </>
   );
 }

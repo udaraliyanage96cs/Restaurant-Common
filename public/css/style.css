@@ -2254,7 +2254,7 @@ ul {
 
 /* line 25, E:/169 Dingo Restaurant/169 Dingo Restaurant/169_Dingo_Restautent_html/sass/_menu.scss */
 .main_menu .main-menu-item ul li a {
-  color: #2c3033 !important;
+  color: #2c3033;
   font-size: 16px;
   padding: 0px 22px !important;
   font-family: "Lora", serif;
@@ -7291,3 +7291,7 @@ h6 {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+.active a{
+  color: #ff6426 !important;
+}

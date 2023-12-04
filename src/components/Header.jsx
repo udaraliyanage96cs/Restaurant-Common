@@ -1,7 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+
+import { BrowserRouter as Router, Link } from "react-router-dom";
 
 export default function Header() {
+  
   return (
     <header className="main_menu main_menu">
       <div className="container">
